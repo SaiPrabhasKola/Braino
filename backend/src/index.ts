@@ -12,7 +12,7 @@ app.use(cors())
 
 const JWT_SECRET = "S3CRET";
 
-mongoose.connect("mongodb+srv://kolasaiprabhas:rOcAwZjlczi4neQe@cluster0.xt5d1.mongodb.net/second-brain")
+mongoose.connect(`mongoose URL Here`)
 app.use(express.json())
 
 app.post("/api/v1/signup", async (req, res) => {
